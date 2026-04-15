@@ -24,29 +24,6 @@ The program processes an input matrix with multiple kernels and generates corres
 
 ---
 
-## Project Structure
-├── main.c # Entry point, handles kernel processing
-├── cnn_layer.c # Core CNN operations
-├── cnn_layer.h
-├── cnn_layer_parallel.c # Parallelized convolution versions
-├── cnn_layer_serial.c # Serial baseline implementation
-├── Makefile
-
-├── input # Input matrix
-├── kernel1 # Kernel 1
-├── kernel2
-├── kernel3
-
-├── Output_kernel1 # Output feature maps
-├── Output_kernel2
-├── Output_kernel3
-
-├── prof_* # Profiling results (gprof outputs)
-├── parallel_no_prints # Timing experiments
-├── img.out # Additional output
-
----
-
 The program will:
 
 Read input matrix
