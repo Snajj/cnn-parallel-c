@@ -15,6 +15,7 @@ This project also explores the **practical limits of parallelization using OpenM
 ## Background
 
 Modern neural networks rely heavily on convolution operations, which are computationally expensive due to their nested loop structure. This makes them ideal candidates for parallelization.
+![Convolution](5x5convolution.jpg)
 
 In this project, all operations were implemented manually:
 
