@@ -85,7 +85,7 @@ Example observations:
 
 ## System
 
-Tested on a 6-core / 12-thread CPU.
+Tested on a 6-core / 12-thread CPU Ryzen 5 5600H CPU.
 
 ---
 
