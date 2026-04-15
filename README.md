@@ -54,9 +54,10 @@ Two levels of parallelization were explored:
 
 Intra-kernel parallelism (effective):
 Parallelized nested loops inside convolution using OpenMP.
-Example:
+Example: 
+```c
 #pragma omp parallel for collapse(2)
-
+```
 This provided a significant speedup (approximately 3x depending on thread count).
 
 Inter-kernel parallelism (not effective):
